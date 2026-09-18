@@ -15,7 +15,7 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(fl, encoding="ISO-8859-1")
 else:
-    df = pd.read_csv(r"C:\Users\hp\Desktop\Superstore.csv", encoding="ISO-8859-1")
+        df = pd.read_csv("Superstore.csv", encoding="ISO-8859-1")
 
 
 col1, col2 = st.columns((2))
